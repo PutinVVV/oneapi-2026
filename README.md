@@ -474,3 +474,55 @@ std::vector<float> JacobiKokkos(
     // Place your implementation here
 }
 ```
+# Results
+## 1_permutations_cxx (102400 elements)
+|Group|Name|Result|Rank|
+|-----|----|------|----|
+|**REF**|**REF**|**0.2492**|**-**|
+
+## 2_integral_oneapi (65536 elements)
+|Group|Name|Result|Rank|
+|-----|----|------|----|
+|**REF**|**REF**|**0.4723**|**-**|
+
+## 3_acc_jacobi_oneapi (4096 elements)
+|Group|Name|Result|Rank|
+|-----|----|------|----|
+|**REF**|**REF**|**0.2749**|**-**|
+
+## 4_dev_jacobi_oneapi (4096 elements)
+|Group|Name|Result|Rank|
+|-----|----|------|----|
+|**REF**|**REF**|**0.2701**|**-**|
+
+## 5_shared_jacobi_oneapi (4096 elements)
+|Group|Name|Result|Rank|
+|-----|----|------|----|
+|**REF**|**REF**|**0.2633**|**-**|
+
+## 6_block_gemm_oneapi (3072 elements)
+|Group|Name|Result|Rank|
+|-----|----|------|----|
+|**REF**|**REF**|**0.9144**|**-**|
+
+## 7_mkl_gemm_oneapi (3072 elements)
+|Group|Name|Result|Rank|
+|-----|----|------|----|
+|**REF**|**REF**|**0.4392**|**-**|
+
+## 8_integral_kokkos (65536 elements)
+|Group|Name|Result|Rank|
+|-----|----|------|----|
+|**REF**|**REF**|**0.3629**|**-**|
+
+## 9_jacobi_kokkos (4096 elements)
+|Group|Name|Result|Rank|
+|-----|----|------|----|
+|**REF**|**REF**|**0.2679**|**-**|
+
+# Tasks Done
+**Total Passed: 0**
+
+---
+*Maximum Score: 576 (64 per task)
+*
