@@ -520,7 +520,7 @@ std::vector<float> JacobiKokkos(
 |Group|Name|Result|Rank|
 |-----|----|------|----|
 |**REF**|**REF**|**0.2701**|**-**|
-|3822B1FI1|beskhmelnova_kseniya|TOO SLOW|-|
+|3822B1FI1|beskhmelnova_kseniya|0.5692|1|
 |3822B1FI1|chistov_alexey|BUILD FAILED|-|
 |3822B1FI3|lopatin_ilya|BUILD FAILED|-|
 |3822B1FI3|kolodkin_grigorii|BUILD FAILED|-|
@@ -529,10 +529,12 @@ std::vector<float> JacobiKokkos(
 |Group|Name|Result|Rank|
 |-----|----|------|----|
 |**REF**|**REF**|**0.2633**|**-**|
+|3822B1FI1|beskhmelnova_kseniya|TOO SLOW|-|
 
 ## 6_block_gemm_oneapi (3072 elements)
 |Group|Name|Result|Rank|
 |-----|----|------|----|
+|3822B1FI1|beskhmelnova_kseniya|0.8884|1|
 |**REF**|**REF**|**0.9144**|**-**|
 
 ## 7_mkl_gemm_oneapi (3072 elements)
@@ -554,7 +556,7 @@ std::vector<float> JacobiKokkos(
 ## 3822B1FI1
 |Group|Name|Passed|Score|
 |-----|----|------|-----|
-|3822B1FI1|beskhmelnova_kseniya|3/9|181|
+|3822B1FI1|beskhmelnova_kseniya|5/9|309|
 |3822B1FI1|chistov_alexey|2/9|126|
 |3822B1FI1|drozhdinov_dmitriy|2/9|111|
 |3822B1FI1|kabalova_valeria|2/9|117|
